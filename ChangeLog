@@ -1,0 +1,26 @@
+0.1.2 
+	bugfix: Extension Clears now Cache on Installation to prevent error message: "ERROR: Content Element type "csvdisplay_pi1" has no rendering definition!"
+0.1.1 
+0.1.0 07-05-13
+	added: support to overwrite settings via Typoscript use: plugin.tx_csvdisplay_pi1.overwrite.DATABASEFIELDNAME to do so
+	change: Changed the css-classes name for rows and cells to display *_odd or *_even
+0.0.9
+	Feature: Autolink support added genrate links out of: http://*, ftp://* www.* *@* 
+0.0.8
+	bugfix: 0.0.7 has some debug output. now it looks clear.
+0.0.7
+	bugfix for fallback encoding now it should work.
+0.0.6
+	added fallback encoding if no iconv is avalable
+	fixed Some Charaset conversion relatet bugs,
+	addet fallback encoding for "ISO-8859-1<->UTF-8" encodings 
+	if no iconv is available.
+0.0.3 
+	includet option for charset conversion
+0.0.2 
+	Fixed a bug where using td instead of a tr tag.
+
+07-04-27 Christian Wolff  <chris@connye.com>
+
+	* Initial release
+	
