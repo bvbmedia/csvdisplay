@@ -47,6 +47,9 @@ class tx_csvdisplay_pi1 extends tslib_pibase {
 		$this->conf=$conf;
         $this->pi_setPiVarDefaults();
         $this->pi_USER_INT_obj=0;    // Configuring so caching is not expected. This value means that no cHash params are ever set. We do this, because it's a USER_INT object!
+		$this->uploadFolder = 'uploads/tx_csvdisplay/';
+		
+	
 		
 		global $TSFE,$LOCAL_LANG;
 	
@@ -55,12 +58,15 @@ class tx_csvdisplay_pi1 extends tslib_pibase {
 		}
 		
 		$header = explode('|',$this->cObj->data['tx_csvdisplay_colheader']);
-		
 		$filename = $this->cObj->data['tx_csvdisplay_csvfile'];
-		if(!is_readable(PATH_site .'uploads/tx_csvdisplay/'.$filename) or empty($filename)){
+		if(strpos($filename,'fileadmin/')===0){ // the file is a reference we dont neet the upload folder path
+			$this->uploadFolder = '';
+		}
+		t3lib_div::debug($filename);
+		if(!is_readable(PATH_site .$this->uploadFolder. $filename) or empty($filename)){
 			return '<!-- ERROR: No file Selected for Display! -->';
 		}
-		$data = file( PATH_site .'uploads/tx_csvdisplay/'.$filename);
+		$data = file( PATH_site .$this->uploadFolder. $filename);
 		$data_line = 0;
 		$delemiter = $this->find_separator($data[0]);
 		switch($this->cObj->data['tx_csvdisplay_firstdatarow']){
