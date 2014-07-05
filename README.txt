@@ -1,5 +1,8 @@
+BVB Media:
+Converted the plugin to work with TYPO3 6.2.X. Also fixed the broken code to successfully convert ISO-8859-1 data to UTF-8.
+
 features:
- - Displayes CSV Data in html Table
+ - Displays CSV Data in html Table
  - css styling header, and even/odd rows or even by individual row / cell number
  - posible to use first line of csv as headers
  - custom headers can entered in backend
