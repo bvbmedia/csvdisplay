@@ -111,6 +111,8 @@ t3lib_div::loadTCA('tt_content');
 $TCA['tt_content']['types'][$_EXTKEY.'_pi1']['showitem']='CType;;4;button;1-1-1, header;;3;;2-2-2, tx_csvdisplay_colheader;;;;1-1-1, tx_csvdisplay_firstdatarow, tx_csvdisplay_layout, tx_csvdisplay_csvfile, tx_csvdisplay_seperator,tx_csvdisplay_autolink,tx_csvdisplay_charsetconv,tx_csvdisplay_delimiter';
 t3lib_extMgm::addPlugin(Array(
 	'LLL:EXT:csvdisplay/locallang_db.xml:tt_content.CType_pi1',
-	$_EXTKEY.'_pi1'
+	$_EXTKEY.'_pi1',
+	t3lib_extMgm::extRelPath($_EXTKEY).'ext_icon.gif'
 ), 'CType');
+
 ?>

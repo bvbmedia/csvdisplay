@@ -20,7 +20,9 @@
  * Plugin 'Display CSV data' for the 'csvdisplay' extension.
  * @author    Christian Wolff <chris@connye.com>
  */
-require_once(PATH_tslib.'class.tslib_pibase.php');
+if (!class_exists('tslib_pibase')) {
+	require_once(PATH_tslib.'class.tslib_pibase.php');
+}
 class tx_csvdisplay_pi1 extends tslib_pibase {
 	var $prefixId='tx_csvdisplay_pi1'; // Same as class name
 	var $scriptRelPath='pi1/class.tx_csvdisplay_pi1.php'; // Path to this script relative to the extension dir.
@@ -83,8 +85,8 @@ class tx_csvdisplay_pi1 extends tslib_pibase {
 			if (count($charsetConv)==2) {
 				$charsetConv[0]=trim($charsetConv[0]);
 				$charsetConv[1]=trim($charsetConv[1]);
-				foreach ($this->data as $idx=>$line) {
-					$this->data[$idx]=$CS->conv($line, $charsetConv[0], $charsetConv[1]);
+				foreach ($this->csvData as $idx=>$line) {
+					$this->csvData[$idx]=$CS->conv($line, $charsetConv[0], $charsetConv[1]);
 				}
 			}
 		}
