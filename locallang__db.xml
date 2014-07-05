@@ -1,32 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <T3locallang>
-	<meta type="array">
-		<type>database</type>
-		<description>Language labels for database tables/fields belonging to extension 'csvdisplay'</description>
-	</meta>
-	<data type="array">
-		<languageKey index="default" type="array">
-			<label index="tt_content.tx_csvdisplay_colheader">Custom Headers (title1|titel2|...)</label>
-			<label index="tt_content.tx_csvdisplay_firstdatarow.I.0">as data (displayed as normal data)</label>
-			<label index="tt_content.tx_csvdisplay_firstdatarow.I.1">as header (overwrite custom headers)</label>
-			<label index="tt_content.tx_csvdisplay_firstdatarow.I.2">remove (will be removed, use with custom headers)</label>
-			<label index="tt_content.tx_csvdisplay_firstdatarow">First Line</label>
-			<label index="tt_content.tx_csvdisplay_csvfile">CSV file</label>
-			<label index="tt_content.tx_csvdisplay_layout">CSS Layout</label> 
-			<label index="tt_content.tx_csvdisplay_seperator">CSV Data Seperator (default comma(,))</label>
-			<label index="tt_content.CType_pi1">Display CSV data</label>
-		</languageKey>
-		<languageKey index="de" type="array">
-			<label index="tt_content.tx_csvdisplay_colheader">Eigene &Uuml;berschriften (title1|titel2|...)</label>
-			<label index="tt_content.tx_csvdisplay_firstdatarow.I.0">als  Daten (wird als daten angezeigt)</label>
-			<label index="tt_content.tx_csvdisplay_firstdatarow.I.1">als &uuml;berschrift (überscheibt Eigene &uuml;berschrift)</label>
-			<label index="tt_content.tx_csvdisplay_firstdatarow.I.2">entfernen (mit Custom headers nutzen, um)</label>
-			<label index="tt_content.tx_csvdisplay_firstdatarow">Erste Zeile</label>
-			<label index="tt_content.tx_csvdisplay_csvfile">CSV Datei</label>
-			<label index="tt_content.tx_csvdisplay_layout">CSS Layout</label>
-			<label index="tt_content.tx_csvdisplay_seperator">CSV Trennzeichen (Standard Komma(,))</label>
-			<label index="tt_content.CType_pi1">CSV Daten Anzeige</label>
+    <meta type="array">
+        <type>database</type>
+        <description>Language labels for database tables/fields belonging to extension 'csvdisplay'</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="tt_content.tx_csvdisplay_colheader">Custom Headers (title1|titel2|...)</label>
+            <label index="tt_content.tx_csvdisplay_firstdatarow.I.0">as data (displayed as normal data)</label>
+            <label index="tt_content.tx_csvdisplay_firstdatarow.I.1">as header (overwrite custom headers)</label>
+            <label index="tt_content.tx_csvdisplay_firstdatarow.I.2">remove (will be removed, use with custom headers)</label>
+            <label index="tt_content.tx_csvdisplay_firstdatarow">First Line</label>
+            <label index="tt_content.tx_csvdisplay_csvfile">CSV file</label>
+            <label index="tt_content.tx_csvdisplay_layout">CSS Layout</label>
+            <label index="tt_content.tx_csvdisplay_seperator">CSV Data Seperator (default comma(,))</label>
+            <label index="tt_content.CType_pi1">Display CSV data</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="tt_content.tx_csvdisplay_colheader">Eigene &Uuml;berschriften (title1|titel2|...)</label>
+            <label index="tt_content.tx_csvdisplay_firstdatarow.I.0">als Daten (wird als daten angezeigt)</label>
+            <label index="tt_content.tx_csvdisplay_firstdatarow.I.1">als &uuml;berschrift (überscheibt Eigene &uuml;berschrift)</label>
+            <label index="tt_content.tx_csvdisplay_firstdatarow.I.2">entfernen (mit Custom headers nutzen, um)</label>
+            <label index="tt_content.tx_csvdisplay_firstdatarow">Erste Zeile</label>
+            <label index="tt_content.tx_csvdisplay_csvfile">CSV Datei</label>
+            <label index="tt_content.tx_csvdisplay_layout">CSS Layout</label>
+            <label index="tt_content.tx_csvdisplay_seperator">CSV Trennzeichen (Standard Komma(,))</label>
+            <label index="tt_content.CType_pi1">CSV Daten Anzeige</label>
 
-		</languageKey>
-	</data>
+        </languageKey>
+    </data>
 </T3locallang>

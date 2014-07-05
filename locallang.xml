@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <T3locallang>
-	<meta type="array">
-		<description>language labels for csvdisplay</description>
-		<type>module</type>
-		<csh_table></csh_table>
-		<fileId>EXT:csvdisplay/locallang.xml</fileId>
-		<labelContext type="array">
-			<label index="pi_title"></label>
-			<label index="pi_plus_wiz_description"></label>
-		</labelContext>
-	</meta>
-	<data type="array">
-		<languageKey index="default" type="array">
-			<label index="extmng.useFileReference">Use file Reference: Use a file reference instead of copying the file to /uploads/ folder. good if you want to update your csv files in a single place. WARNING: if you delete a referenced file from /fileadmin/ the data in the frontend is gone.</label>
-		</languageKey>
-		<languageKey index="de" type="array">
-			<label index="extmng.useFileReference">Referenzierte dateien Verwenden: Verwendet eine Referenz der gewählten datei ohne diese nach /uploads/ zu kopieren. Gut falls die CSV dateien einfach an einer stelle Aktualisiert werden sollen. WARNUNG: wird eine Referenzierte datei aus /fileadmin/ gelöscht sind die daten im frontend verlohren.</label>
-		</languageKey>
-	</data>
+    <meta type="array">
+        <description>language labels for csvdisplay</description>
+        <type>module</type>
+        <csh_table></csh_table>
+        <fileId>EXT:csvdisplay/locallang.xml</fileId>
+        <labelContext type="array">
+            <label index="pi_title"></label>
+            <label index="pi_plus_wiz_description"></label>
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="extmng.useFileReference">Use file Reference: Use a file reference instead of copying the file to /uploads/ folder. good if you want to update your csv files in a single place. WARNING: if you delete a referenced file from
+                /fileadmin/ the data in the frontend is gone.
+            </label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="extmng.useFileReference">Referenzierte dateien Verwenden: Verwendet eine Referenz der gewählten datei ohne diese nach /uploads/ zu kopieren. Gut falls die CSV dateien einfach an einer stelle Aktualisiert werden sollen.
+                WARNUNG: wird eine Referenzierte datei aus /fileadmin/ gelöscht sind die daten im frontend verlohren.
+            </label>
+        </languageKey>
+    </data>
 </T3locallang>
