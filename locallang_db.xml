@@ -14,7 +14,7 @@
             <label index="tt_content.tx_csvdisplay_firstdatarow">First Line</label>
             <label index="tt_content.tx_csvdisplay_csvfile">CSV file</label>
             <label index="tt_content.tx_csvdisplay_delimiter">CSV Data Seperator (empty = autodetection)</label>
-            <label index="tt_content.tx_csvdisplay_charsetconv">Charakter Converting from to (ISO-8859-1|UTF-8)</label>
+            <label index="tt_content.tx_csvdisplay_charsetconv">Character Converting from to (ISO-8859-1|UTF-8)</label>
             <label index="tt_content.tx_csvdisplay_pageitems">Items Per Page</label>
             <label index="tt_content.CType_pi1">Display CSV data</label>
             <label index="tt_content.tx_csvdisplay_page">Page</label>

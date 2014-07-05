@@ -6,7 +6,7 @@ features:
  - css styling header, and even/odd rows or even by individual row / cell number
  - posible to use first line of csv as headers
  - custom headers can entered in backend
- - any charakter as CSV Separtion Charakter possible default is comma
+ - any character as CSV Separation Character possible default is comma
 
 to do / missing features:
  - multipage page display, currently the whole data is shown in a single table
