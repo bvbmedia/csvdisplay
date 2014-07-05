@@ -16,7 +16,7 @@
 			<label index="tt_content.tx_csvdisplay_delimiter">CSV Data Seperator (empty = autodetection)</label>
 			<label index="tt_content.tx_csvdisplay_charsetconv">Charakter Converting from to (ISO-8859-1|UTF-8)</label>
 			<label index="tt_content.tx_csvdisplay_pageitems">Items Per Page</label>
-			<label index="tt_content.CType_pi1">Dispaly CSV data</label>
+			<label index="tt_content.CType_pi1">Display CSV data</label>
 			<label index="tt_content.tx_csvdisplay_page">Page</label>
 			<label index="tt_content.tx_csvdisplay_autolink">Auto Link (http://, www. ,ftp://, name@server.tld)</label>
 			<label index="tt_content.tx_csvdisplay_layout">CSS Layout</label>

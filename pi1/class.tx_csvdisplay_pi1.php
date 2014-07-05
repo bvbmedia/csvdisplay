@@ -22,7 +22,7 @@
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
 /**
- * Plugin 'Dispaly CSV data' for the 'csvdisplay' extension.
+ * Plugin 'Display CSV data' for the 'csvdisplay' extension.
  *
  * @author	Christian Wolff <chris@connye.com>
  */
@@ -293,7 +293,7 @@ class tx_csvdisplay_pi1 extends tslib_pibase {
 			$temp[] = preg_replace("=[\"']$=", "" ,$val);
 			$laststart = $i + 1;
 		}
-		# am Ende Angekommen, noch den Rest anhängen
+		# am Ende Angekommen, noch den Rest anhï¿½ngen
 		$val = preg_replace("=^[\"']=", "" ,trim(substr($set, $laststart, strlen($set) - $laststart)));
 		$temp[] = preg_replace("=[\"']$=", "" ,$val);
 		return $temp;

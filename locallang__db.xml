@@ -14,7 +14,7 @@
 			<label index="tt_content.tx_csvdisplay_csvfile">CSV file</label>
 			<label index="tt_content.tx_csvdisplay_layout">CSS Layout</label> 
 			<label index="tt_content.tx_csvdisplay_seperator">CSV Data Seperator (default comma(,))</label>
-			<label index="tt_content.CType_pi1">Dispaly CSV data</label>
+			<label index="tt_content.CType_pi1">Display CSV data</label>
 		</languageKey>
 		<languageKey index="de" type="array">
 			<label index="tt_content.tx_csvdisplay_colheader">Eigene &Uuml;berschriften (title1|titel2|...)</label>
